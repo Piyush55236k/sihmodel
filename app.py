@@ -1,3 +1,8 @@
+# ---------------- Root Endpoint ---------------- #
+
+@app.route("/")
+def root():
+    return "API is running!"
 from flask import Flask, request, jsonify
 from math import ceil
 
